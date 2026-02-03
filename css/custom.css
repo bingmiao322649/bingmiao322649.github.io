@@ -1,0 +1,13 @@
+/* 首页大图中间的站点标题（企鹅吃月饼） */
+#site-title {
+  font-size: 68px !important;   /* 可改：2.5rem / 48px / 4rem */
+}
+
+.avatar-img img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
