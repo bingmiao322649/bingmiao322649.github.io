@@ -11,3 +11,63 @@
   transform: scale(1.05);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
+
+/* 全站底图（真正的一体图底层） */
+#web_bg {
+  background: url("/img/index.png") center center / cover no-repeat fixed !important;
+}
+
+/* 首页头图也融入到底图*/
+#page-header.full_page {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+}
+
+/* footer 融入：让 footer 自己不再有“独立背景块” */
+#footer {
+  background: transparent !important;   /* 关键 */
+}
+
+/* footer 文字可读性：加一层轻遮罩（不会破坏一体图） */
+#footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); /* 0.25~0.5 自己调 */
+  z-index: 0;
+}
+
+/* 确保 footer 内容在遮罩之上 */
+#footer .footer-inner,
+#footer .footer_custom_text,
+#footer .copyright,
+#footer .framework-info,
+#footer .footer-meta,
+#footer .footer-list {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* 1️⃣ 所有页面的头部都用同一张底图逻辑（融合 background） */
+#page-header {
+  background: transparent !important;
+}
+
+/* 2️⃣ 统一高度（你可以改成 60vh / 70vh） */
+#page-header,
+#page-header.full_page {
+  height: 100vh !important;
+}
+
+/* 3️⃣ 统一遮罩（保证标题可读） */
+#page-header::before {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 4️⃣ 标题内容始终居中 */
+#page-header .page-header-content {
+  top: 50% !important;
+  transform: translateY(-50%);
+}
