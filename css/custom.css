@@ -71,3 +71,16 @@
   top: 50% !important;
   transform: translateY(-50%);
 }
+
+/* 让图片描述文字显示在下方 */
+.gallery-items .gallery-item .gallery-data {
+    display: block !important;
+    text-align: center; /* 文字居中 */
+    padding: 10px 0;    /* 上下间距 */
+    color: #555;        /* 文字颜色 */
+    font-size: 14px;    /* 字体大小 */
+    font-weight: 500;   /* 字体粗细 */
+    font-family: "Microsoft YaHei", sans-serif; /* 更改字体 */
+}
+
+
