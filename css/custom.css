@@ -49,7 +49,7 @@
   z-index: 1;
 }
 
-
+/* 一图流设置 */
 /* 1️⃣ 所有页面的头部都用同一张底图逻辑（融合 background） */
 #page-header {
   background: transparent !important;
@@ -72,6 +72,7 @@
   transform: translateY(-50%);
 }
 
+
 /* 让图片描述文字显示在下方 */
 .gallery-items .gallery-item .gallery-data {
     display: block !important;
@@ -84,3 +85,12 @@
 }
 
 
+/* Twikoo：隐藏“图片上传”按钮，保留表情按钮 */
+#twikoo .tk-input-image {
+  display: none !important; /* 真正的 <input type="file"> */
+}
+
+/* 只隐藏第二个上传图片动作图标 */
+#twikoo .tk-row-actions-start .tk-submit-action-icon:nth-of-type(2) {
+  display: none !important;
+}
