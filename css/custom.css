@@ -94,3 +94,23 @@
 #twikoo .tk-row-actions-start .tk-submit-action-icon:nth-of-type(2) {
   display: none !important;
 }
+
+/* Butterfly 正文容器通常是 #article-container */
+#article-container p {
+  text-indent: 2em !important;
+  line-height: 1.9 !important;
+  margin: 0.8em 0 !important;
+}
+
+/* Butterfly gallery 统一显示尺寸 */
+.gallery-item {
+  width: 100%;
+  height: 220px;        /* 你想要的统一高度，可改：200 / 240 */
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* 关键：裁剪而不是拉伸 */
+}
