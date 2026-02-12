@@ -114,3 +114,28 @@
   height: 100%;
   object-fit: cover;    /* 关键：裁剪而不是拉伸 */
 }
+
+
+
+/* 1) 输入密码栏外层容器在聚焦时不要出现背景块 */
+#hexo-blog-encrypt .hbe-input.hbe-input-default:focus-within{
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+
+
+/* 收藏页卡片优化 */
+.link-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
