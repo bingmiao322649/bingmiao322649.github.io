@@ -116,9 +116,9 @@
 }
 
 /* 1) 输入密码栏外层容器在聚焦时不要出现背景块 */
-#hexo-blog-encrypt .hbe-input.hbe-input-default:focus-within{
+/* #hexo-blog-encrypt .hbe-input.hbe-input-default:focus-within{
   background: transparent !important;
   background-color: transparent !important;
   box-shadow: none !important;
   filter: none !important;
-}
+} */
