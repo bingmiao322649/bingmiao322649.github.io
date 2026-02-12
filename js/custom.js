@@ -6,4 +6,3 @@ document.addEventListener('keydown', function (e) {
     if (btn) btn.click();
   }
 });
-
