@@ -14,7 +14,7 @@
 
 /* 全站底图（真正的一体图底层） */
 #web_bg {
-  background: url("/img/index.png") center center / cover no-repeat fixed !important;
+  background: url("https://cdn.jsdelivr.net/gh/bingmiao322649/my-blog-images@main/img/index.png") center center / cover no-repeat fixed !important;
 }
 
 /* 首页头图也融入到底图*/
