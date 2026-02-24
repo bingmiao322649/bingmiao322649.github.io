@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bingmiao322649.github.io/albums/index.html</loc>
+    
+    <lastmod>2026-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bingmiao322649.github.io/2026/02/07/hello-world%20-%20%E5%89%AF%E6%9C%AC/</loc>
     
     <lastmod>2026-02-24</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://bingmiao322649.github.io/2026/02/07/hello-world/</loc>
     
     <lastmod>2026-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bingmiao322649.github.io/albums/index.html</loc>
-    
-    <lastmod>2026-02-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -137,27 +137,6 @@
 
   
   <url>
-    <loc>https://bingmiao322649.github.io/tags/Hexo/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bingmiao322649.github.io/tags/Butterfly/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bingmiao322649.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://bingmiao322649.github.io/tags/cheyuze/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -185,17 +164,38 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://bingmiao322649.github.io/categories/Hexo/</loc>
+    <loc>https://bingmiao322649.github.io/tags/Hexo/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://bingmiao322649.github.io/tags/Butterfly/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bingmiao322649.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://bingmiao322649.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bingmiao322649.github.io/categories/Hexo/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
